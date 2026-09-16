@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politique de confidentialité — BodyCount</title>
+  <meta name="description" content="Ce que BodyCount fait de vos données : rien ne quitte votre téléphone.">
+  <link rel="icon" href="../favicon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="site">
+      <img src="../logo.svg" alt="" width="44" height="44">
+      <a class="brand" href="../">BodyCount</a>
+      <nav>
+        <a href="./" aria-current="page">Confidentialité</a>
+        <a href="mailto:ylb.applicationfr@gmail.com">Contact</a>
+      </nav>
+    </header>
+
+    <p class="eyebrow">Dernière mise à jour : 16 septembre 2026</p>
+    <h1>Politique de confidentialité</h1>
+    <p class="lede">BodyCount est une application mobile de suivi personnel : un répertoire de rencontres, des statistiques et des badges, et un volet santé (rapports, dépistages, vaccinations, rappels). Elle est conçue autour d’un principe unique : <strong>rien ne quitte votre téléphone.</strong></p>
+
+    <h2>Ce que l’application ne fait pas</h2>
+    <ul>
+      <li>Elle ne crée <strong>aucun compte</strong> et ne demande aucune identification.</li>
+      <li>Elle n’a <strong>aucun serveur</strong> : aucune donnée n’est envoyée, synchronisée ou sauvegardée en ligne.</li>
+      <li>Elle n’embarque <strong>aucun outil d’analyse d’audience, de rapport de plantage, de publicité ou de suivi</strong>.</li>
+      <li>Sur Android, la version publiée <strong>ne possède pas la permission d’accéder à Internet</strong> : quiconque inspecte l’application peut constater qu’elle ne peut pas communiquer avec le réseau.</li>
+      <li>L’éditeur de l’application <strong>n’a accès à aucune de vos données</strong> et ne peut pas les consulter, les récupérer ni les transmettre à qui que ce soit.</li>
+    </ul>
+
+    <h2>Les données que vous saisissez</h2>
+    <p>L’application ne collecte rien d’elle-même. Elle enregistre uniquement ce que vous choisissez d’y écrire :</p>
+    <ul>
+      <li><strong>Fiches de rencontres</strong> : prénom ou pseudo, dates, lieu, type de relation, notes, étiquettes, photos, points forts et points faibles.</li>
+      <li><strong>Volet santé</strong> : rapports (avec ou sans protection), dépistages et leurs résultats, vaccinations, bilans prévus, situations déclarées pour adapter le rythme des rappels.</li>
+      <li><strong>Profil</strong> : pseudo, date de naissance, genre, taille, ce que vous recherchez.</li>
+      <li><strong>Réglages</strong> : préférences d’affichage, de verrouillage et de rappels.</li>
+    </ul>
+    <p>Ces données sont, au sens du RGPD, des données sensibles (vie sexuelle, santé). C’est précisément pourquoi elles ne sont traitées que <strong>sur votre appareil, sous votre seul contrôle</strong>.</p>
+
+    <h2>Comment elles sont protégées</h2>
+    <ul>
+      <li>Toutes les données sont <strong>chiffrées sur le disque</strong> (XChaCha20-Poly1305). La base ne contient en clair que des identifiants aléatoires et des horodatages.</li>
+      <li>La clé de chiffrement est rangée dans le trousseau sécurisé du système (Keychain sur iOS, Keystore sur Android), liée à l’appareil. En protection renforcée, elle est en plus enveloppée par un code ou une phrase secrète que vous seul connaissez (dérivation Argon2id) ; l’application ne le stocke nulle part.</li>
+      <li>L’application peut se <strong>verrouiller</strong> (biométrie ou code) et, sur Android, <strong>bloquer les captures d’écran</strong> et masquer son aperçu dans le multitâche.</li>
+      <li>Les photos ajoutées à une fiche sont copiées, chiffrées, dans le stockage privé de l’application. L’original reste dans votre galerie, intact.</li>
+    </ul>
+
+    <h2>Les permissions demandées, et pourquoi</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Permission</th><th>Usage</th></tr></thead>
+        <tbody>
+          <tr><th>Biométrie</th><td>Déverrouiller l’application.</td></tr>
+          <tr><th>Appareil photo, sélection de photos</th><td>Ajouter une photo à une fiche. La sélection passe par le sélecteur du système : l’application ne voit que la photo choisie, jamais votre galerie.</td></tr>
+          <tr><th>Notifications</th><td>Rappels de dépistage et de vaccination, programmés sur l’appareil. Leur texte reste volontairement vague : il peut s’afficher sur un écran verrouillé.</td></tr>
+          <tr><th>Alarmes exactes</th><td>Déclencher un rappel le jour prévu.</td></tr>
+          <tr><th>Vibration</th><td>Retours haptiques de l’interface.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Aucune permission réseau, de localisation, de contacts ou de microphone.</p>
+
+    <h2>Partage et sauvegardes</h2>
+    <ul>
+      <li>Les <strong>cartes à partager</strong> sont des images composées sur le téléphone. Vous choisissez l’application à laquelle vous les confiez ; BodyCount n’envoie rien lui-même et n’y inscrit ni prénom ni photo.</li>
+      <li>Les <strong>sauvegardes</strong> sont des fichiers chiffrés que vous exportez où vous voulez. Ils ne contiennent rien de lisible sans votre phrase secrète.</li>
+      <li>Les liens de l’écran « Sources et limites » ouvrent votre navigateur ; l’application n’y joint aucune donnée.</li>
+    </ul>
+
+    <h2>Conservation et suppression</h2>
+    <p>Vos données restent sur l’appareil tant que vous les y laissez. Vous pouvez supprimer une entrée, une fiche, ou tout effacer depuis les réglages. Désinstaller l’application supprime l’ensemble de ses données et sa clé de chiffrement. Les sauvegardes que vous avez exportées restent là où vous les avez rangées.</p>
+
+    <h2>Âge</h2>
+    <p>BodyCount s’adresse à des personnes majeures. L’application n’est pas conçue pour les mineurs et n’est pas proposée dans les catégories destinées aux familles.</p>
+
+    <h2>Vos droits</h2>
+    <p>L’éditeur ne détenant aucune de vos données, il ne peut ni y accéder, ni les rectifier, ni les effacer à votre place : vous exercez ces droits directement dans l’application. Pour toute question sur cette politique, écrivez à <a href="mailto:ylb.applicationfr@gmail.com">ylb.applicationfr@gmail.com</a>.</p>
+
+    <h2>Modifications</h2>
+    <p>Cette politique évolue avec l’application. La date en tête de page indique la dernière révision ; toute modification substantielle est signalée dans les notes de version.</p>
+
+    <footer class="site">
+      <span>BodyCount</span>
+      <a href="../">Accueil</a>
+      <a href="mailto:ylb.applicationfr@gmail.com">ylb.applicationfr@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>
