@@ -6,7 +6,7 @@
     </radialGradient>
     <filter id="ombre" x="-50%" y="-20%" width="200%" height="180%">
       <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.4" />
-    </filter></defs><rect width="200" height="200" fill="#0A0712" /><circle cx="100" cy="100" r="98" fill="url(#halo)" /><g transform="translate(0.578 0.578) scale(0.99422)">
+    </filter></defs><g transform="translate(-10.983 -10.983) scale(1.10983)">
     <g filter="url(#ombre)">
       <circle cx="100" cy="100" r="78" fill="none" stroke="#FF4D7E" stroke-width="13" />
       <circle cx="100" cy="100" r="64" fill="none" stroke="#FFB35C" stroke-width="7" />
