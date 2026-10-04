@@ -29,10 +29,8 @@ ensuite retenu dans le navigateur.
 La politique anglaise est une traduction : la version française fait foi, et
 la page anglaise le dit.
 
-Le formulaire d'inscription des testeurs est encore en français sur la page
-anglaise : quand sa version anglaise existera, remplacer le lien dans
-`en/testers/index.html` et retirer la mention « The form is in French for
-now ».
+Le formulaire d'inscription des testeurs existe lui aussi en deux versions,
+une par langue : chaque page Tester pointe vers la sienne.
 
 La politique existe aussi en Markdown dans
 `docs/politique-de-confidentialite.md` : les deux se modifient ensemble.
