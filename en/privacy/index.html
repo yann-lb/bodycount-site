@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy — BodyCount</title>
+  <meta name="description" content="What BodyCount does with your data: nothing leaves your phone.">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+  <link rel="alternate" hreflang="fr" href="https://yann-lb.github.io/bodycount-site/confidentialite/">
+  <link rel="alternate" hreflang="en" href="https://yann-lb.github.io/bodycount-site/en/privacy/">
+  <script src="../../lang.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="site">
+      <img src="../../logo.svg" alt="" width="44" height="44">
+      <a class="brand" href="../">BodyCount</a>
+      <nav>
+        <a href="../testers/">Test it</a>
+        <a href="./" aria-current="page">Privacy</a>
+        <a href="mailto:ylb.applicationfr@gmail.com">Contact</a>
+        <a class="lang" href="../../confidentialite/" hreflang="fr" lang="fr" data-lang="fr">FR</a>
+      </nav>
+    </header>
+
+    <p class="eyebrow">Last updated: October 4, 2026</p>
+    <h1>Privacy policy</h1>
+    <div class="note">This is an English translation of the <a href="../../confidentialite/" hreflang="fr" lang="fr" data-lang="fr">French privacy policy</a>. If the two ever differ, the French version prevails.</div>
+    <p class="lede">BodyCount is a personal tracking app for your phone: a log of the people you meet, stats and badges, and a health section (hookups, STI tests, vaccines, reminders). It is built around a single principle: <strong>nothing leaves your phone.</strong></p>
+
+    <h2>What the app does not do</h2>
+    <ul>
+      <li>It creates <strong>no account</strong> and asks for no sign-in.</li>
+      <li>It has <strong>no server</strong>: no data is sent, synced or backed up online.</li>
+      <li>It contains <strong>no analytics, crash reporting, advertising or tracking tools</strong>.</li>
+      <li>On Android, the published version <strong>does not have permission to access the internet</strong>: anyone inspecting the app can check that it cannot talk to the network.</li>
+      <li>The app’s publisher <strong>has no access to any of your data</strong> and cannot view it, retrieve it or pass it on to anyone.</li>
+    </ul>
+
+    <h2>The data you enter</h2>
+    <p>The app collects nothing on its own. It only stores what you choose to write in it:</p>
+    <ul>
+      <li><strong>Profiles of people you’ve met</strong>: first name or nickname, dates, place, type of relationship, ratings, tags, photos, strengths and weaknesses.</li>
+      <li><strong>Health section</strong>: hookups (protected or not), STI tests and their results, vaccines, planned check-ups, circumstances you declare to adjust how often reminders come.</li>
+      <li><strong>Your profile</strong>: nickname, date of birth, gender, height, what you’re looking for.</li>
+      <li><strong>Settings</strong>: display, lock and reminder preferences.</li>
+    </ul>
+    <p>Under the GDPR, this is sensitive data (sex life, health). That is exactly why it is processed only <strong>on your device, under your sole control</strong>.</p>
+
+    <h2>How it is protected</h2>
+    <ul>
+      <li>All data is <strong>encrypted on disk</strong> (XChaCha20-Poly1305). The database only holds random identifiers and timestamps in the clear.</li>
+      <li>The encryption key is kept in the system’s secure keystore (Keychain on iOS, Keystore on Android), tied to the device. With enhanced protection, it is also wrapped by a code or passphrase that only you know (Argon2id key derivation); the app stores it nowhere.</li>
+      <li>The app can <strong>lock itself</strong> (biometrics or code) and, on Android, <strong>block screenshots</strong> and hide its preview in the app switcher.</li>
+      <li>Photos added to a profile are copied, encrypted, into the app’s private storage. The original stays untouched in your gallery.</li>
+    </ul>
+
+    <h2>Permissions requested, and why</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Permission</th><th>Use</th></tr></thead>
+        <tbody>
+          <tr><th>Biometrics</th><td>Unlock the app.</td></tr>
+          <tr><th>Photo picker</th><td>Add a photo to a profile. Selection goes through the system picker: the app only sees the photo you choose, never your gallery. On Android 12 and earlier, this picker requires the old storage read permission.</td></tr>
+          <tr><th>Notifications</th><td>STI test and vaccine reminders, scheduled on the device. Their wording is deliberately vague: it may appear on a locked screen.</td></tr>
+          <tr><th>Device startup</th><td>Reschedule reminders after the phone restarts.</td></tr>
+          <tr><th>Screenshot detection</th><td>Required by the module that blocks screenshots of the app (on by default). The app does not react to screenshots and keeps no record of them.</td></tr>
+          <tr><th>Vibration</th><td>Haptic feedback in the interface.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>No network, camera, location, contacts or microphone permission.</p>
+
+    <h2>Sharing and backups</h2>
+    <ul>
+      <li><strong>Share cards</strong> are images put together on the phone. You choose which app to hand them to; BodyCount sends nothing itself and puts no names or photos on them.</li>
+      <li><strong>Backups</strong> are encrypted files that you export wherever you want. Nothing in them is readable without your passphrase.</li>
+      <li>Links on the “Sources and limits” screen open your browser; the app attaches no data to them.</li>
+      <li><strong>Android’s automatic backup</strong> (to Google Drive, or from one phone to another) is turned off for BodyCount: no copy leaves unless you made it yourself.</li>
+    </ul>
+
+    <h2>Retention and deletion</h2>
+    <p>Your data stays on the device for as long as you leave it there. You can delete an entry, a profile, or erase everything from the settings. Uninstalling the app deletes all of its data and its encryption key. Backups you exported stay wherever you put them.</p>
+
+    <h2>Age</h2>
+    <p>BodyCount is for adults. The app is not designed for minors and is not offered in categories meant for families.</p>
+
+    <h2>Your rights</h2>
+    <p>Since the publisher holds none of your data, it cannot access, correct or delete it on your behalf: you exercise these rights directly in the app. For any question about this policy, write to <a href="mailto:ylb.applicationfr@gmail.com">ylb.applicationfr@gmail.com</a>.</p>
+
+    <h2 id="testers">This website and the tester list</h2>
+    <p>This website uses no cookies and no audience measurement. The only thing it keeps in your browser is the language you picked with the FR / EN button, which is sent nowhere. It is hosted by GitHub Pages and displays its headings with a font served by Google Fonts: as with any website, these services receive your browser’s IP address in order to deliver the files.</p>
+    <p>If you sign up from the <a href="../testers/">Test it</a> page, this is the only data the publisher receives from you:</p>
+    <ul>
+      <li><strong>What is collected</strong>: the email address of your Google account, your choice (test, get notified, or both), and your confirmation that you are 18 or older.</li>
+      <li><strong>Why</strong>: to add you to the Google Play tester list, which requires this address to give you access, and to email you at launch and for major updates if you asked for it. Legal basis: your consent.</li>
+      <li><strong>Where</strong>: in Google Forms and the publisher’s mailbox (Google), and in the tester list of the Google Play Console. Google may process this data outside the European Union, under the safeguards provided by the GDPR.</li>
+      <li><strong>For how long</strong>: until you ask to be removed, and at the latest one year after the end of the last test or the last announcement.</li>
+      <li><strong>Your rights</strong>: access, correction, deletion and withdrawal of consent, with a simple email to <a href="mailto:ylb.applicationfr@gmail.com">ylb.applicationfr@gmail.com</a>. You can also contact the CNIL, the French data protection authority.</li>
+    </ul>
+    <p>None of this touches the app: what you write in it stays on your phone, whether you’re a tester or not.</p>
+
+    <h2>Changes</h2>
+    <p>This policy evolves with the app. The date at the top of the page shows the latest revision; any substantial change is mentioned in the release notes.</p>
+
+    <footer class="site">
+      <span>BodyCount</span>
+      <a href="../">Home</a>
+      <a href="mailto:ylb.applicationfr@gmail.com">ylb.applicationfr@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>

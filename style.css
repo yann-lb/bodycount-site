@@ -93,3 +93,7 @@ footer.site a { color: var(--muted); }
   header.site { flex-wrap: wrap; row-gap: 10px; }
   header.site nav { gap: 16px; width: 100%; margin-left: 0; }
 }
+
+/* Le changement de langue : une pastille discrète, à droite de la navigation. */
+header.site nav a.lang { border: 1px solid var(--border); border-radius: 999px; padding: 0 10px; font-size: 13px; letter-spacing: 0.06em; line-height: 24px; }
+header.site nav a.lang:hover { border-color: var(--muted); }
